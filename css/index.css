@@ -476,3 +476,13 @@ background: radial-gradient(circle,red,#ff5e00, #ffbb00,#ff5e00,red);
                 padding: 2rem 1.5rem;
             }
         }
+        @media (max-width: 768px) {
+    .love-message-section {
+        padding: 1.5rem 1rem; /* menos espacio arriba */
+    }
+
+    .love-message-content {
+        width: 90%;
+        padding: 1.5rem 1rem; /* más compacto */
+    }
+}
